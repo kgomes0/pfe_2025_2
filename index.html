@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS05 19/05/25</title>
+</head>
+    <h1>JS05 19/05/25</h1>
+    <div id="saida"></div>
+<body>
+<script>
+let saida=document.getElementById("saida");
+let calc;
+let num1 = parseFloat(prompt("Digite o primeiro número:"));// 5
+let num2 = parseFloat(prompt("Digite o segundo número:"));// 2
+calc = num1+num2;
+
+saida.innerHTML="<br>num1: "+num1;
+saida.innerHTML+="<br>num2: "+num2;
+saida.innerHTML+="<br>Resultado soma: "+calc;
+saida.innerHTML+="<br>Subtracao: "+(num1-num2);
+saida.innerHTML+="<br>Multiplicacao: "+(num1*num2);
+saida.innerHTML+="<br>Divisao: "+(num1/num2);
+saida.innerHTML+="<br>Resto da divisao: "+(num1%num2);
+saida.innerHTML+="<br>Exponenciacao: "+(num1**num2);
+
+</script>
+</body>
